@@ -52,6 +52,8 @@ También intentamos implementar un wrapper ERC20 pero fue en las versiones anter
 ### Ejemplo de Realidad Aumentada:
 
 #### Escanear codigo QR.
+[Link-AR](https://rodrigomato00.github.io/A-Frame_exercises/3-Crear_escena/escena.html)
+
 ![Text](/images/AR-Example-web.png)
 
 #### Luego de abir la web, e inicializar la camara enfocar el siguiente patron.
