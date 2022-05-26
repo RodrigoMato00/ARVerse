@@ -7,23 +7,23 @@ ARVerse: Es una plataforma en la que le podes dar un uso real a tus NFTs. Nuestr
 El dueño del NFT podrá tanto venderlo como alquilarlo, algunos de nuestros NFTs también están  fraccionando como por ejemplo los NFTs que pertenecen a estadios, dando la posibilidad de ganar una doble renta.
 
 ### MIEMBROS DEL EQUIPO
-  Marcelo Arbiza - Project Manager - Blockchain - Backend 
+  Marcelo Arbiza - Project Manager - Blockchain - Backend
   Rodrigo Mato- Blockchain - Backend - AR Specialist
   Martin Casamayou - Blockchain - Frontend - Backend
   Diego Guarise - Frontend
   German - Frontend
 
-### METAS 
+### METAS
 
 1-Diseño y creacion de Contratos NFTs y Marketplace
 		-Contrato NFTs: ERC721 /ERC1115
-		Funcions: Mint only owner y todas las funcionalidades que le corresponden 
+		Funcions: Mint only owner y todas las funcionalidades que le corresponden
 		al ERC 721.
 2-Contrato Marketplace: ERC721
 	Funciones: Mapping, nos devuelve una lista de items disponibles tanto en alquiler
-		como venta, Add listing, permite al dueño del NFT añadirlo a la lista tanto 
-		vendiendo como alquilando y sus respectivos valores, al añadirse a la lista 
-		el NFT es transferido al contrato del Marketplace; 
+		como venta, Add listing, permite al dueño del NFT añadirlo a la lista tanto
+		vendiendo como alquilando y sus respectivos valores, al añadirse a la lista
+		el NFT es transferido al contrato del Marketplace;
 		Remuve listing; esta función permite al dueño del NFT quitarlo de la lista.
 		Buy, permite a cualquier persona comprar un item de la lista; RentOut, permite
 		que cualquier persona pueda rentar un NFT; FinishRenting, esta función hace
@@ -43,6 +43,8 @@ El dueño del NFT podrá tanto venderlo como alquilarlo, algunos de nuestros NFT
 *1*2Renta: cuando el dueño de un token lo publica en el market especificando los valores de renta y venta le otorga privilegios al marketplace para ejecutar las funciones del contrato mismo ERC721, para que al momento de la venta del NFT el market pueda hacer la transferencia sin la aprobación del dueño. Al transferirse el token del mercado a otro usuario la los permisos que tiene el mercado sobre el NFT se revocan por defecto. Esto no tiene nada de malo si la transacción se trata de una venta, pero al momento del alquiler esto trae varios problemas.
 En un contrato sin utilizar como intermediario el marketplace esta función trabaja de manera normal permitiendo rentar  y devolver el NFT a su dueño una vez finalizado o pasado el tiempo de renta. Con el Marketplace como intermediario esto cambia y genera problemas no dejando ejecutar la función de Finishrenting para devolver el NFT, esto se debe a que en la transferencia (_transfer) el Market pierde todo privilegio sobre el NFT; para intentar solucionar esto reescribimos la función _transfer del contrato el token ERC721 “_approved(addres(0), tokenId);”
 intentamos comentar la línea anteriormente mencionada para que se mantuvieran los permisos, (teniendo en cuenta que esto deja al dueño anterior con permisos) pero nunca pudimos terminar de compilar el contrato ya que nos daba un error, la función añadir ítem a al marketplace pedía que fuese payable por más que en ningún momento ni la función ni ningún proceso llamado detrás de la misma necesitaba hacer algún tipo transferencia de dinero.
-También intentamos implementar un wrapper ERC20 pero fue en las versiones anteriores al contrato del marketplace. 
+También intentamos implementar un wrapper ERC20 pero fue en las versiones anteriores al contrato del marketplace.
 
 ### Infraestructura de Contratos:
+
+![Text](/images/diagrama.jpeg)
