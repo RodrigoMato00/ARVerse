@@ -48,3 +48,12 @@ También intentamos implementar un wrapper ERC20 pero fue en las versiones anter
 ### Infraestructura de Contratos:
 
 ![Text](/images/diagrama.jpeg)
+
+### Ejemplo de Realidad Aumentada:
+
+#### Escanear codigo QR.
+![Text](/images/AR-Example-web.png)
+
+#### Luego de abir la web, e inicializar la camara enfocar el siguiente patron.
+
+![Text](/images/pattern-kanji.png)
