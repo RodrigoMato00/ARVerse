@@ -7,11 +7,11 @@ ARVerse: Es una plataforma en la que le podes dar un uso real a tus NFTs. Nuestr
 El dueño del NFT podrá tanto venderlo como alquilarlo, algunos de nuestros NFTs también están  fraccionando como por ejemplo los NFTs que pertenecen a estadios, dando la posibilidad de ganar una doble renta.
 
 ### MIEMBROS DEL EQUIPO
-  Marcelo Arbiza - Project Manager - Blockchain - Backend
-  Rodrigo Mato- Blockchain - Backend - AR Specialist
-  Martin Casamayou - Blockchain - Frontend - Backend
-  Diego Guarise - Frontend
-  German - Frontend
+  - Marcelo Arbiza - Project Manager - Blockchain - Backend
+  - Rodrigo Mato- Blockchain - Backend - AR Specialist
+  - Martin Casamayou - Blockchain - Frontend - Backend
+  - Diego Guarise - Frontend
+  - German Cavani- Frontend
 
 ### METAS
 
