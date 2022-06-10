@@ -34,10 +34,15 @@ El dueño del NFT podrá tanto venderlo como alquilarlo, algunos de nuestros NFT
 		obtener información sobre los ítems ofrecidos.
 
 3- Conectar contratos : El contrato ERC721  cuenta con la funcionalidad de poder dar permiso de ejecución de sus funciones propias a otra dirección (setApprobalforall)*2.
+
 4- Creación de nuestro propio Marketplace: aquí se listaran los NFTS disponibles y dará la posibilidad de comprar o rentar.
+
 5- Conexión del Marketplace a la wallet utilizando web3.js(librería de jvascript).
+
 6- Subasta: a  futuro planeamos que la persona que alquila ese NFT pueda subastar en determinados horarios donde se den de eventos puntuales como un partido de fútbol, dando la posibilidad a un anunciante de mostrar su publicidad. Para realizar la subata debemos fraccionar las partes alquiladas.
+
 7- Metadata del NFT: la metadata del NFT estara alojada en una base de datos descentralizada utilizando Pinata. esto no binda la seguridad de lapermanecia de los datos, ya que si estuviece enun servidor este podria caer, probocando la perdida de los mismos. en el momento no se encuntra implmenteda aunque si fue testeado correctamnte para poder levantar los datos del AR geolocalizado. 
+
 8- Proyección de AR geolocalizado:  para esto utilizamos Javascript y dos librerías AR.js y Aframe, los NFTs cuentan en su metadata con coordenadas GPS(latitud y longitud), los usuarios podrán acceder a ver la misma a través de su navegador web.
 
 ### ACLARACIONES
