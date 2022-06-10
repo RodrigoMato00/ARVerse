@@ -19,6 +19,7 @@ El dueño del NFT podrá tanto venderlo como alquilarlo, algunos de nuestros NFT
 		-Contrato NFTs: ERC721 /ERC1115
 		Funcions: Mint only owner y todas las funcionalidades que le corresponden
 		al ERC 721.
+
 2- Contrato Marketplace: ERC721
 	Funciones: Mapping, nos devuelve una lista de items disponibles tanto en alquiler
 		como venta, Add listing, permite al dueño del NFT añadirlo a la lista tanto
