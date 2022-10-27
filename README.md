@@ -11,7 +11,6 @@ El dueño del NFT podrá tanto venderlo como alquilarlo, algunos de nuestros NFT
   - Rodrigo Mato- Blockchain - Backend - AR Specialist
   - Martin Casamayou - Blockchain - Frontend - Backend
   - Diego Guarise - Frontend
-  - German Cavani- Frontend
 
 ### METAS
 
